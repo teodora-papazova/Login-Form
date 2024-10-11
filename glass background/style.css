@@ -1,0 +1,71 @@
+.body{
+    background-image: url(background.jpg);
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+input[type=email] {
+    background-color: transparent;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=email]:focus {
+    border: 2px solid #f3d1f4;
+}
+input[type=password] {
+    background-color: transparent;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=password]:focus {
+    border: 2px solid #f3d1f4;
+}
+.login-container{
+    width: 300px;
+    padding: 50px 40px 50px 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+}
+.btn { 
+    margin-top: 30px;
+    cursor: pointer; 
+    border: 2px solid #000000; 
+    border-radius: 20px;
+    background-color: transparent; 
+    height: 43px; 
+    width: 300px; 
+    border: 2px solid #000000;
+    font-family: Montserrat;
+    -webkit-transition: 0.5s; 
+} 
+.btn:hover {
+    background-color: transparent;
+    color: #f3d1f4;
+    border-color: #f3d1f4;
+    transition-duration: 0.5s;
+}
+h1:hover{
+    color: #f3d1f4;
+    -webkit-transition: 0.5s;
+}
+h1{
+    -webkit-transition: 0.5s;
+}
